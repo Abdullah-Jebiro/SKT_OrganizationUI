@@ -14,13 +14,17 @@
               <thead>
                 <tr>
                   <th>Name</th>
+                  <th>Phone</th>
                 </tr>
               </thead>
               <tbody >
                 <tr *ngFor="let patient of patients">
                   <td >
                    {{ patient.fullName}}             
-                  </td>              
+                  </td>        
+                  <td >
+                    {{ patient.phoneNumber}}             
+                   </td>       
                 </tr>
               </tbody>
             </table>
