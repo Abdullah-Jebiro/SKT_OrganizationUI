@@ -205,3 +205,8 @@
 .booking-form .submit-btn:disabled {
   opacity: 0.5;
 }
+.mySpan{
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  font-size: 12px;
+}
